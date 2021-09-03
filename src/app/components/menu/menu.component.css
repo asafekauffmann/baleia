@@ -1,0 +1,8 @@
+.container {
+    height: 525px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: #CBE6E6;
+    margin-top: 0;
+}
