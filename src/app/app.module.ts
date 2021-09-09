@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { FirstpageComponent } from './navigation/firstpage/firstpage.component';
+import { Pag1Component } from './page/pag1/pag1.component';
+import { Page2Component } from './page/page2/page2.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { FirstpageComponent } from './navigation/firstpage/firstpage.component';
     FooterComponent,
     HeaderComponent,
     MenuComponent,
-    FirstpageComponent
+    Pag1Component,
+    Page2Component
   ],
   imports: [
     BrowserModule,
